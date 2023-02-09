@@ -31,7 +31,6 @@ MORSE_CODE = {
 def decode_char(morsecode)
   words = morsecode.strip.split('   ')
   decoded_words = []
-  
   words.each do |word|
     decoded_word = ''
     word.split.each do |letter|
