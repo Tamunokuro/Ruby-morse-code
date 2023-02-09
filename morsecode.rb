@@ -48,6 +48,9 @@ def decode_char(morsecode)
         letters.each do |letter|
             decoded_word += MORSE_CODE.key(letter)
         end
+    decoded_words << decoded_word
+    end
+    decoded_words.join(" ")
 end
 
  
