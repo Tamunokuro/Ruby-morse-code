@@ -61,7 +61,6 @@ After you're finished please remove all the comments and instructions!
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
 - **Morse code interpretation to ASCII characters**
 
 <!-- GETTING STARTED -->
@@ -74,6 +73,8 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 - [Ruby](https://www.ruby-lang.org/en/)
 
+- ruby morsecode.rb
+
 <!--
 Example command:
 
@@ -85,9 +86,7 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
-
 1. Clone the repository
-
 ```
 git clone git@github.com:Tamunokuro/Ruby-morse-code.git
 ```
@@ -101,15 +100,6 @@ cd Ruby-morse-code
 ```
 Run ruby morsecode.rb
 ```
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone `git@github.com:myaccount/my-project.git`
-```
---->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +120,7 @@ Example commands:
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features"></>
 - [ ] Add a method to translate ASCII characters into morse codes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
